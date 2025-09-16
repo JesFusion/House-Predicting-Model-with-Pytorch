@@ -105,10 +105,6 @@ y_test = th.tensor(y_test.values, dtype = th.float32).unsqueeze(1)
 
 
 
-# <-----------------   FROM THIS SECTION BELOW, I HAVE NO IDEA WHAT IS GOING ON   --------------------->
-
-
-
 
 # ================= CREATING DATASET AND DATALOADER ====================
 
@@ -310,4 +306,5 @@ plt.show()
 # ===================== SAVING THE MODEL ======================
 
 th.save(ai_algorithm.state_dict(), "house_price_regression_predicting_model_paramaters.pt")
+
 
